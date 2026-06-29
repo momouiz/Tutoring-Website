@@ -17,6 +17,8 @@
         <li><a href="#subjects">Subjects</a></li>
         <li><a href="#why-me">Why Me</a></li>
         <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#revision">Revision</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
@@ -29,7 +31,7 @@
       <p class="hero-tagline">GCSE &amp; A-Level Tutor</p>
       <p class="hero-subjects">Maths, Sciences, English, Computer Science</p>
       <p class="hero-details">Years 7–13 &nbsp;|&nbsp; Online tutoring</p>
-      <p class="hero-price">£20<span>/hour</span></p>
+      <p class="hero-price">Starting from £20<span>/hour</span></p>
       <a href="#contact" class="btn">Contact / Book</a>
     </div>
   </header>
@@ -109,7 +111,7 @@
     <div class="container">
       <h2>Pricing</h2>
       <div class="pricing-card">
-        <div class="pricing-amount">£20<span>/hour</span></div>
+        <div class="pricing-amount">Starting from £20<span>/hour</span></div>
         <ul class="pricing-features">
           <li>One-to-one online sessions</li>
           <li>Tailored to your syllabus</li>
@@ -118,6 +120,110 @@
         </ul>
         <a href="#contact" class="btn">Get Started</a>
       </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section id="reviews" class="section">
+    <div class="container">
+      <h2>Reviews</h2>
+      <p class="section-intro">Hear from students I've worked with</p>
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Mouiz explained algebra in a way that actually made sense. My grades went from a 4 to a 7 in just a few months!"</p>
+          <p class="review-author">— Year 10 Student, Maths</p>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Really patient and easy to talk to. He breaks things down step by step which really helped with my Chemistry."</p>
+          <p class="review-author">— Year 11 Student, Chemistry</p>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Great tutor! He knows exactly what the examiners are looking for and helped me improve my essay technique."</p>
+          <p class="review-author">— Year 11 Student, English</p>
+        </div>
+      </div>
+      <div class="review-form-wrapper">
+        <h3>Leave a Review</h3>
+        <form class="contact-form" action="https://formsubmit.co/mouiz.boulk@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New Review Submitted">
+          <input type="hidden" name="_captcha" value="false">
+          <div class="form-group">
+            <label for="review-name">Name</label>
+            <input type="text" id="review-name" name="name" placeholder="Your name (or leave anonymous)" required>
+          </div>
+          <div class="form-group">
+            <label for="review-subject">Subject Tutored</label>
+            <input type="text" id="review-subject" name="subject" placeholder="e.g. Maths, Physics" required>
+          </div>
+          <div class="form-group">
+            <label for="review-text">Your Review</label>
+            <textarea id="review-text" name="review" rows="4" placeholder="How was your experience?" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-full">Submit Review</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Revision Section -->
+  <section id="revision" class="section section-alt">
+    <div class="container">
+      <h2>Revision Resources</h2>
+      <p class="section-intro">Free resources to help with your studies</p>
+      <div class="resources-grid">
+        <div class="resource-card">
+          <div class="resource-icon">📐</div>
+          <h3>Maths</h3>
+          <ul class="resource-list">
+            <li><a href="resources/maths-gcse-formulas.pdf" target="_blank">GCSE Formula Sheet</a></li>
+            <li><a href="resources/maths-algebra-notes.pdf" target="_blank">Algebra Revision Notes</a></li>
+          </ul>
+        </div>
+        <div class="resource-card">
+          <div class="resource-icon">⚛️</div>
+          <h3>Physics</h3>
+          <ul class="resource-list">
+            <li><a href="resources/physics-equations.pdf" target="_blank">Key Equations</a></li>
+            <li><a href="resources/physics-forces-notes.pdf" target="_blank">Forces Revision Notes</a></li>
+          </ul>
+        </div>
+        <div class="resource-card">
+          <div class="resource-icon">🧪</div>
+          <h3>Chemistry</h3>
+          <ul class="resource-list">
+            <li><a href="resources/chemistry-periodic-table.pdf" target="_blank">Periodic Table Guide</a></li>
+            <li><a href="resources/chemistry-bonding-notes.pdf" target="_blank">Bonding Revision Notes</a></li>
+          </ul>
+        </div>
+        <div class="resource-card">
+          <div class="resource-icon">🧬</div>
+          <h3>Biology</h3>
+          <ul class="resource-list">
+            <li><a href="resources/biology-cells-notes.pdf" target="_blank">Cell Biology Notes</a></li>
+            <li><a href="resources/biology-ecology-notes.pdf" target="_blank">Ecology Revision Notes</a></li>
+          </ul>
+        </div>
+        <div class="resource-card">
+          <div class="resource-icon">📝</div>
+          <h3>English</h3>
+          <ul class="resource-list">
+            <li><a href="resources/english-essay-tips.pdf" target="_blank">Essay Writing Tips</a></li>
+            <li><a href="resources/english-lit-quotes.pdf" target="_blank">Key Literature Quotes</a></li>
+          </ul>
+        </div>
+        <div class="resource-card">
+          <div class="resource-icon">💻</div>
+          <h3>Computer Science</h3>
+          <ul class="resource-list">
+            <li><a href="resources/cs-algorithms-notes.pdf" target="_blank">Algorithms Notes</a></li>
+            <li><a href="resources/cs-programming-guide.pdf" target="_blank">Programming Guide</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="resources-note">More resources coming soon! Check back regularly for updates.</p>
     </div>
   </section>
 
